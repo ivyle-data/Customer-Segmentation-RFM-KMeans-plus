@@ -15,7 +15,7 @@ Understanding customer behavior is essential for effective marketing and busines
   - **Data Visualization:**
     - `matplotlib`, `seaborn`, `squarify`
   - **Machine Learning & Clustering:**
-    - `sklearn.cluster` → **KMeans (clustering)**
+    - `sklearn.cluster` → **KMeans++ (clustering)**
     - `sklearn.preprocessing` → **StandardScaler (feature scaling)**
     - `sklearn.metrics` → **Silhouette Score, Davies-Bouldin Score, Calinski-Harabasz Score (clustering evaluation)**
   
@@ -25,7 +25,7 @@ Understanding customer behavior is essential for effective marketing and busines
    - Convert dates and transaction formats
 2. **Feature Engineering**
    - Compute Recency, Frequency, and Monetary (RFM) values
-   - Normalize data for clustering
+   - Standarize data for clustering
 3. **Customer Segmentation**
    - Use **K-Means++** clustering to group customers
    - Analyze cluster characteristics
