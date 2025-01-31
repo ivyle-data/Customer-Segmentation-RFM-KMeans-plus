@@ -40,6 +40,7 @@ Understanding customer behavior is essential for effective marketing and busines
 ## How to Run the Project
 Click this Google Colab Notebook
 [![Open in Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OKcdIpSASCmx8LGRgdIkYl9l6oUbe4BR?usp=sharing)
+
 Or:
 1. Open Google Colab: [Colab Notebook](https://colab.research.google.com/)
 2. Upload the notebook (`rfm_analysis.ipynb`)
