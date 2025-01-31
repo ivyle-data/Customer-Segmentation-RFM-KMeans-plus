@@ -10,9 +10,15 @@ Understanding customer behavior is essential for effective marketing and busines
 ## Technologies Used
 - **Google Colab** (Jupyter-based environment)
 - **Python Libraries**:
-  - `pandas`, `numpy`, `scipy.stats` (data processing)
-  - `matplotlib`, `seaborn`, `squarify` (visualization)
-
+  - **Data Processing & Feature Engineering:**
+    - `pandas`, `numpy`, `scipy.stats`
+  - **Data Visualization:**
+    - `matplotlib`, `seaborn`, `squarify`
+  - **Machine Learning & Clustering:**
+    - `sklearn.cluster` → **KMeans (clustering)**
+    - `sklearn.preprocessing` → **StandardScaler (feature scaling)**
+    - `sklearn.metrics` → **Silhouette Score, Davies-Bouldin Score, Calinski-Harabasz Score (clustering evaluation)**
+  
 ## Key Steps
 1. **Data Cleaning & Preprocessing**
    - Handle missing values
