@@ -1,0 +1,42 @@
+# RFM Customer Segmentation with K-Means++
+This project performs customer segmentation using RFM (Recency, Frequency, Monetary) analysis and K-Means++ clustering.
+
+## Project Overview
+Understanding customer behavior is essential for effective marketing and business decision-making. This project applies RFM analysis and K-Means++ clustering to segment customers based on their purchasing patterns.
+## Dataset
+- Source: Adventure Works Cycles (virtual dataset).
+- Contains **121,253 transactions** from **01/07/2017 to 15/07/2020**.
+- Filtered to **United States market**.
+## Technologies Used
+- **Google Colab** (Jupyter-based environment)
+- **Python Libraries**:
+  - `pandas`, `numpy`, `scipy.stats` (data processing)
+  - `matplotlib`, `seaborn`, `squarify` (visualization)
+
+## Key Steps
+1. **Data Cleaning & Preprocessing**
+   - Handle missing values
+   - Convert dates and transaction formats
+2. **Feature Engineering**
+   - Compute Recency, Frequency, and Monetary (RFM) values
+   - Normalize data for clustering
+3. **Customer Segmentation**
+   - Use **K-Means++** clustering to group customers
+   - Analyze cluster characteristics
+4. **Visualization & Insights**
+   - Generate scatter plots for customer segmentation.
+
+## Results
+- Identified **7 customer segments** by RFM analysis (Unsteady Customers, Lost Customers, Potential Lost Customers, At-Risk Customers, Emerging Customers, Active Customers, Inactive Customers, Top Customers).
+- Identified **3 customer cluster** (Gold, Silver, Bronze) by K-Means++ based on RFM value.
+- Provided actionable insights to improve marketing strategies.
+
+## How to Run the Project
+1. Open Google Colab: [Colab Notebook](https://colab.research.google.com/)
+2. Upload the notebook (`rfm_analysis.ipynb`)
+3. Install dependencies (if needed) by running:
+   ```python
+   !pip install squarify scikit-learn-extra lifetimes
+
+## Google Colab Notebook
+[![Open in Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OKcdIpSASCmx8LGRgdIkYl9l6oUbe4BR?usp=sharing)
