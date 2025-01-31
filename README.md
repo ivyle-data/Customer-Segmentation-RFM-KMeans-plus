@@ -28,7 +28,7 @@ Understanding customer behavior is essential for effective marketing and busines
 
 ## Results
 - Identified **7 customer segments** by RFM analysis (Unsteady Customers, Lost Customers, Potential Lost Customers, At-Risk Customers, Emerging Customers, Active Customers, Inactive Customers, Top Customers).
-- Identified **3 customer cluster** (Gold, Silver, Bronze) by K-Means++ based on RFM value.
+- Identified **3 customer clusters** (Gold, Silver, Bronze) by K-Means++ clustering model based on RFM values.
 - Provided actionable insights to improve marketing strategies.
 
 ## How to Run the Project
