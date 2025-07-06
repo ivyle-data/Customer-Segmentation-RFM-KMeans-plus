@@ -27,11 +27,10 @@ Understanding customer behavior is essential for effective marketing and busines
    - Compute Recency, Frequency, and Monetary (RFM) values
    - Standarize data for clustering
 3. **Customer Segmentation**
+   - Use **RFM Score** to segment customers
    - Use **K-Means++** clustering to group customers
    - Analyze cluster characteristics
-4. **Visualization & Insights**
-   - Generate scatter plots for customer segmentation.
-
+5. **Visualization & Insights**
 ## Results
 - Identified **7 customer segments** by RFM analysis (Unsteady Customers, Lost Customers, Potential Lost Customers, At-Risk Customers, Emerging Customers, Active Customers, Inactive Customers, Top Customers).
 - Identified **3 customer clusters** (Gold, Silver, Bronze) by K-Means++ clustering model based on RFM values.
