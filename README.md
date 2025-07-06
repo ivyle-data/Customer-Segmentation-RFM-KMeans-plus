@@ -1,4 +1,4 @@
-# RFM Customer Segmentation with K-Means++
+# Customer Segmentation Using RFM Analysis on DTC Sales Data
 This project performs customer segmentation using RFM (Recency, Frequency, Monetary) analysis and K-Means++ clustering.
 
 ## Project Overview
